@@ -14,18 +14,40 @@
         color:white;
     }
 
+    #navbar-toggler{
+        background-color:#00cc99;
+    }
+   .hero-page{
+    background-color: #002554;
+   }
+
+   .top-brand{
+    color: white;
+   }
+
+   .nav-link{
+    color:#bfdcea;
+   }
+
+   .nav-link:hover{
+    color:white;
+   }
+
+  {
+    color:white;
+   }
     
   </style>
-  <body>
-    
-    <div class="container main">
+  <body >
+    <div class="hero-page">
+    <div class="container" >
         <nav class="navbar navbar-expand-md navbar-light  first_nav">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <!-- <img src="https://example.com/logo.png" alt="Topstep Logo" height="30"> -->
-                <h1>Top Step</h1>
+                <h1 class ="top-brand">Top Step</h1>
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarMain">
@@ -46,27 +68,27 @@
           
           <nav class="navbar navbar-expand-md navbar-light first_nav">
             <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSecondary" aria-controls="navbarSecondary" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" id="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSecondary" aria-controls="navbarSecondary" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSecondary">
                 <ul class="navbar-nav me-auto">
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="howItWorksDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      How It Works
+                     HOW IT WORKS
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="howItWorksDropdown">
-                      <li><a class="dropdown-item" href="#">Step 1</a></li>
-                      <li><a class="dropdown-item" href="#">Step 2</a></li>
-                      <li><a class="dropdown-item" href="#">Step 3</a></li>
+                      <li><a class="dropdown-item" href="#">Our Program</a></li>
+                      <li><a class="dropdown-item" href="#">Futures Trading 101</a></li>
+          
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Free Coaching</a>
+                    <a class="nav-link" href="#">FREE COACHING</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Resources
+                       RESOURCES
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
                       <li><a class="dropdown-item" href="#">Blog</a></li>
@@ -75,10 +97,10 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Become a Partner</a>
+                    <a class="nav-link" href="#">BECOME A PARTNER</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link btn btn-primary" href="#">Earn Funding</a>
+                    <a class="nav-link btn btn-primary" href="#" style="background-color:#00cc99; color:white">Earn Funding</a>
                   </li>
                 </ul>
               </div>
@@ -88,6 +110,7 @@
           
 
     </div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 </html>
