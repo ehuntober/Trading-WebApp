@@ -1,0 +1,108 @@
+<div class="hero-page">
+    <div class="container" >
+        <nav class="navbar navbar-expand-md navbar-light  first_nav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <!-- <img src="https://example.com/logo.png" alt="Topstep Logo" height="30"> -->
+                <h1 class ="top-brand">Top Step</h1>
+              </a>
+              <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Help center</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Search</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+          <nav class="navbar navbar-expand-md navbar-light first_nav">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" id="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSecondary" aria-controls="navbarSecondary" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSecondary">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="howItWorksDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     HOW IT WORKS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="howItWorksDropdown">
+                      <li><a class="dropdown-item" href="#">Our Program</a></li>
+                      <li><a class="dropdown-item" href="#">Futures Trading 101</a></li>
+          
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">FREE COACHING</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       RESOURCES
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                      <li><a class="dropdown-item" href="#">Blog</a></li>
+                      <li><a class="dropdown-item" href="#">Videos</a></li>
+                      <li><a class="dropdown-item" href="#">Webinars</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">BECOME A PARTNER</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link btn btn-primary" href="#" style="background-color:#00cc99; color:white">Earn Funding</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+          
+
+    </div>
+
+    <div class="container">
+    <div class="row">
+
+      <!-- Hero Section -->
+      <div class="col-12 col-md-8 my-auto">
+        <h1 class="display-3">BECOME A FUNDED</h1>
+        <h1 class="display-3">FUTURES TRADER</h1>
+        <p class="lead">Topstep Funded Traders™ develop stronger skills, healthier habits, and keep 90% of their profits.</p>
+        <a href="#" class="btn btn-primary btn-lg">EARN FUNDING</a>
+      </div>
+
+      <!-- Video Section -->
+      <div class="col-12 col-md-4 my-auto">
+   
+          <iframe class="embed-responsive-item" src="./media/trading_vid.mp4" type="video/mp4"></iframe>
+       
+      </div>
+
+    </div>
+  </div>
+
+
+    <!-- <div class="container">
+        <div class="hero hero--video  text-white">
+
+    
+
+            <video autoplay loop muted playsinline class="hero--video--frame desktop" data-aspect-ratio="1.777">
+            <source src="./media/trading_vid.mp4" type="video/mp4">
+            </video>
+            
+      <h1>Become a funded<br />
+      <span style="color: #ebbc4e;">Futures trader</span></h1>
+     
+    </div> -->
+</div>
