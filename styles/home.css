@@ -305,6 +305,11 @@ body {
   margin: 10px 0;
 }
 
+.mid_box p{
+  word-wrap: break-word;
+  color: #002554;
+  font-weight: 300;
+}
 
 
 
