@@ -260,8 +260,11 @@ body {
 
 }
 
+/* .testmonial styling  */
+
 .testmonial {
   padding: 1%;
+  background-color:#f6f6f6;
 }
 
 .testmonial h3{
@@ -284,6 +287,23 @@ body {
 }
 
 
+.mid_box{
+  background-color:#fff;
+    padding:5%;
+}
+.mid_box h2{
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgb(0, 37, 84);
+  font-family:"Sharp Grotesk","Helvetica","Sans Serif";;
+}
+.mid_box hr{
+  height: 2px; 
+  background-color: black;
+  border: none; 
+  margin: 10px 0;
+}
 
 
 
